@@ -55,7 +55,8 @@ public class RequestDemoPageTest extends TestBase {
     }
 
     @Test()
-    public void createNewReqDemoPageTest(){
+    public void createNewReqDemoPageTest() throws IOException {
+        requestDemoPage = topNavigation.clickRequestDemoPageLink();
         requestDemoPage.createNewRequestDemo("sf","sfc","sf","sfv");
     }
 
@@ -69,11 +70,25 @@ public class RequestDemoPageTest extends TestBase {
         return data;
     }
 
+    @Test(dataProvider = "ZoomTestData", dataProviderClass = ExcelDataProvider.class)
+    public void testName(String email, String cname, String fname, String lname) throws IOException {
+        requestDemoPage = topNavigation.clickRequestDemoPageLink();
+        System.out.println(email);
+        System.out.println(cname);
+        System.out.println(fname);
+        System.out.println(lname);
+    }
+
     @Test()
-    public void keyInMAilTest(){
+    public void keyInMAilTest() throws IOException {
+        topNavigation.clickRequestDemoPageLink();
         requestDemoPage.keyInEmail("uajncsndc");
     }
 
+    @Test()
+    public void clickTest() throws IOException {
+        requestDemoPage = topNavigation.clickRequestDemoPageLink();
+    }
 
     @Test
     public void submitTest() {
@@ -87,7 +102,6 @@ public class RequestDemoPageTest extends TestBase {
     // return data;
     //}
 
-
     // @Test(dataProvider = "getZoomTestData")
     //public void createNewRequestDemoTest(String mail, String cname, String fname, String lname){
     // requestDemoPage.createNewRequestDemo("u@gmail.com","pragra","unnati","desai");
@@ -95,14 +109,15 @@ public class RequestDemoPageTest extends TestBase {
     //}
 
 
-    //  @Test(dataProvider = "ZoomTestData", dataProviderClass = ExcelDataProvider.class)
-    //public void createNewRequestDemoTest(String mail, String cname, String fname, String lname) {
-    //  System.out.println(mail);
-    //System.out.println(cname);
-    //System.out.println(fname);
-    //System.out.println(lname);
-    //requestDemoPage.createNewRequestDemo(mail, cname, fname, lname);
-    //}
+     @Test(dataProvider = "ZoomTestData", dataProviderClass = ExcelDataProvider.class)
+    public void createNewRequestDemoTest(String mail, String cname, String fname, String lname) throws IOException {
+        requestDemoPage = topNavigation.clickRequestDemoPageLink();
+        System.out.println(mail);
+        System.out.println(cname);
+        System.out.println(fname);
+        System.out.println(lname);
+        requestDemoPage.createNewRequestDemo(mail, cname, fname, lname);
+    }
 
 
 

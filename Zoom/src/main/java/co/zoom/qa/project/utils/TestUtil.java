@@ -21,36 +21,9 @@ public class TestUtil extends TestBase {
         FileUtils.copyFile(scrFile, new File(currentDir + "/screenshots/" + System.currentTimeMillis() + ".png"));
     }
 
-    // static Workbook book;
-    //static Sheet sheet;
-
-    //public static String TESTDATA_SHEET_PATH = "C:\\Users\\RICHA\\Documents\\GitHub\\Selenium\\Zoom\\src\\main\\java\\co\\zoom\\qa\\project\\testdata\\ZoomTestData.xlsx";
-    //private static RenderedImageFactory WorkbookFactory;
 
     public TestUtil() throws IOException {
     }
-
-//   public static Object[][] getTestData(String sheetName){
-  //      FileInputStream file = null;
-    //    try {
-      //      file = new FileInputStream(TESTDATA_SHEET_PATH);
-        //} catch (FileNotFoundException e) {
-          //  e.printStackTrace();
-        //}
-        //try {
-         //   book = (Workbook) WorkbookFactory.create(file);
-        //} catch (IOException e){
-          //  e.printStackTrace();
-        //}
-        //sheet = book.getSheet(sheetName);
-        //Object[][] data = new Object[sheet.getLastRowNum()][sheet.getLeftCol()];
-        //for (int i = 0; i < sheet.getLastRowNum();i++) {
-          //  for (int k = 0; k < sheet.getLeftCol(); k++) {
-            //    data[i][k] = sheet.getRow(i + 1).getCell(k).toString();
-            //}
-        //}
-        //return data;
-          //  }
 }
 
 

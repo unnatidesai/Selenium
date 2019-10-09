@@ -15,6 +15,7 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
+@SuppressWarnings("deprecation")
 public class ExcelDataProvider extends TestBase {
 
 
@@ -25,12 +26,12 @@ public class ExcelDataProvider extends TestBase {
         super();
 
         dataFileName = "ZoomTestData.xlsx";
-        dataFileLocation = "C:\\Users\\RICHA\\Documents\\GitHub\\Selenium\\Zoom\\src\\main\\java\\co\\zoom\\qa\\project\\testdata";
+        dataFileLocation = "C:\\Users\\RICHA\\Documents\\GitHub\\Selenium\\Zoom\\src\\main\\java\\co\\zoom\\qa\\project\\data\\ExcelDataProvider.java";
 
     }
 
 
-    @DataProvider(name = " ZoomTestData")
+    @DataProvider(name = "ZoomTestData")
     public Iterator<Object[]> readExcel() {
         List<Object[]> excelData = new ArrayList<>();
         Path path = Paths.get(dataFileLocation, dataFileName);
@@ -46,6 +47,7 @@ public class ExcelDataProvider extends TestBase {
                 List<Object> cellData = new ArrayList<>();
                 while (cellIterator.hasNext()) {
                     Cell cell = cellIterator.next();
+                    //noinspection deprecation
                     if (cell.getCellTypeEnum() == CellType.STRING) {
                         cellData.add(cell.getStringCellValue());
                     }
