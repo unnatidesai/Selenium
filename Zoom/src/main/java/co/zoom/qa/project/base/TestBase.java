@@ -2,6 +2,9 @@ package co.zoom.qa.project.base;
 
 import co.zoom.qa.project.utils.TestUtil;
 import co.zoom.qa.project.utils.WebEventListener;
+import org.apache.logging.log4j.Level;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -16,7 +19,7 @@ import java.util.concurrent.TimeUnit;
 
 public class TestBase {
 
-
+    private final Logger logger = LogManager.getLogger(TestBase.class);
     public static WebDriver driver;
     public static Properties prop;
 
@@ -36,16 +39,26 @@ public class TestBase {
 
     }
 
-    public static void initialization() throws IOException {
+    protected static WebDriver driver() {
+        return driver;
+    }
+
+    public void initialization() throws IOException {
+
+        logger.log(Level.INFO,"Using executable from path {} for chrome",prop.getProperty("browser"));
+
         String browserName = prop.getProperty("browser");
+
         if (browserName.equals("chrome")){
             System.setProperty("webdriver.chrome.driver","C:\\Users\\RICHA\\Selenium\\chromedriver.exe");
+            logger.log(Level.INFO, "Found Match for {} browser",System.setProperty("webdriver.chrome.driver","C:\\Users\\RICHA\\Selenium\\chromedriver.exe"));
             driver = new ChromeDriver();
         }
         else if (browserName.equals("firefox")){
             System.setProperty("webdriver.gecko.driver","C:\\Users\\RICHA\\Selenium\\geckodriver.exe");
             driver = new FirefoxDriver();
         }
+
 
         EventFiringWebDriver e_driver = new EventFiringWebDriver(driver);
         // Now create object of EventListerHandler to register it with EventFiringWebDriver

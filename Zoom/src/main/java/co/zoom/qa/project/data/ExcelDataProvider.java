@@ -1,6 +1,5 @@
 package co.zoom.qa.project.data;
 
-import co.zoom.qa.project.base.TestBase;
 import org.apache.poi.ss.usermodel.*;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.testng.annotations.DataProvider;
@@ -15,30 +14,29 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-@SuppressWarnings("deprecation")
-public class ExcelDataProvider extends TestBase {
-
-
+public class ExcelDataProvider {
     private String dataFileName;
     private String dataFileLocation;
 
-    public ExcelDataProvider() throws IOException {
-        super();
+    public ExcelDataProvider() {
 
         dataFileName = "ZoomTestData.xlsx";
-        dataFileLocation = "C:\\Users\\RICHA\\Documents\\GitHub\\Selenium\\Zoom\\src\\main\\java\\co\\zoom\\qa\\project\\data\\ExcelDataProvider.java";
-
+        dataFileLocation = "src/main/resources";
     }
 
+    public ExcelDataProvider(String dataFileName, String dataFileLocation) {
+        this.dataFileName = dataFileName;
+        this.dataFileLocation = dataFileLocation;
+    }
 
-    @DataProvider(name = "ZoomTestData")
+    @DataProvider(name = "excelData")
     public Iterator<Object[]> readExcel() {
         List<Object[]> excelData = new ArrayList<>();
         Path path = Paths.get(dataFileLocation, dataFileName);
 
         try (InputStream stream = new FileInputStream(path.toFile())) {
             Workbook workbook = new XSSFWorkbook(stream);
-            Sheet sheet = workbook.getSheet("RequestDemo");
+            Sheet sheet = workbook.getSheet("contacts");
             Iterator<Row> rowIterator = sheet.rowIterator();
             rowIterator.next(); // skipped one row
             while (rowIterator.hasNext()) {
@@ -47,18 +45,17 @@ public class ExcelDataProvider extends TestBase {
                 List<Object> cellData = new ArrayList<>();
                 while (cellIterator.hasNext()) {
                     Cell cell = cellIterator.next();
-                    //noinspection deprecation
-                    if (cell.getCellTypeEnum() == CellType.STRING) {
+                    if (cell.getCellType() == Cell.CELL_TYPE_STRING) {
                         cellData.add(cell.getStringCellValue());
                     }
-                    if (cell.getCellTypeEnum() == CellType.BOOLEAN) {
+                    if (cell.getCellType() == Cell.CELL_TYPE_BOOLEAN) {
                         cellData.add(cell.getBooleanCellValue());
                     }
-                    if (cell.getCellTypeEnum() == CellType.NUMERIC) {
+                    if (cell.getCellType() == Cell.CELL_TYPE_NUMERIC) {
                         cellData.add(cell.getNumericCellValue());
                     }
                 }
-                excelData.add(cellData.toArray());
+                    excelData.add(cellData.toArray());
             }
 
         } catch (FileNotFoundException e) {
@@ -69,4 +66,5 @@ public class ExcelDataProvider extends TestBase {
         return excelData.iterator();
 
     }
+
 }

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Zoom Automation Test Suite">
+
+    <listeners>
+        <listener class-name="co.zoom.qa.project.listeners.ScreenShotListener"></listener>
+        <listener class-name="co.zoom.qa.project.listeners.ExtentReportNG"></listener>
+    </listeners>
+
+
+    <test name="Zoom Test Cases">
+        <classes>
+
+            <class name="co.zoom.qa.testcases.TopNavigationTest"></class>
+            <class name="co.zoom.qa.testcases.RequestDemoPageTest"></class>
+            <class name="co.zoom.qa.testcases.ProfilePageTest"></class>
+            <class name="co.zoom.qa.testcases.SecondNavigationBarTest"></class>
+            <class name="co.zoom.qa.testcases.ContactSalesPageTest"></class>
+            <class name="co.zoom.qa.testcases.SignUpPageTest"></class>
+            <class name="co.zoom.qa.testcases.SignInPageTest"></class>
+
+        </classes>
+    </test>
+</suite>

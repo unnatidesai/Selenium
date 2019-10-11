@@ -1,0 +1,12 @@
+2019-10-11 02:13:06.509 [main] INFO  co.zoom.qa.project.base.TestBase - Using executable from path chrome for chrome
+2019-10-11 02:13:06.509 [main] INFO  co.zoom.qa.project.base.TestBase - Found Match for C:\Users\RICHA\Selenium\chromedriver.exe browser
+2019-10-11 02:13:39.840 [main] INFO  co.zoom.qa.project.base.TestBase - Using executable from path chrome for chrome
+2019-10-11 02:13:39.840 [main] INFO  co.zoom.qa.project.base.TestBase - Found Match for C:\Users\RICHA\Selenium\chromedriver.exe browser
+2019-10-11 02:14:33.895 [main] ERROR co.zoom.qa.project.listeners.ScreenShotListener - Test Failed 2 - Doing Screenshot now
+2019-10-11 02:14:34.624 [main] ERROR co.zoom.qa.project.listeners.ScreenShotListener - Test Failed 2 - Doing Screenshot now
+2019-10-11 02:14:36.280 [main] INFO  co.zoom.qa.project.base.TestBase - Using executable from path chrome for chrome
+2019-10-11 02:14:36.281 [main] INFO  co.zoom.qa.project.base.TestBase - Found Match for C:\Users\RICHA\Selenium\chromedriver.exe browser
+2019-10-11 02:15:25.439 [main] INFO  co.zoom.qa.project.base.TestBase - Using executable from path chrome for chrome
+2019-10-11 02:15:25.439 [main] INFO  co.zoom.qa.project.base.TestBase - Found Match for C:\Users\RICHA\Selenium\chromedriver.exe browser
+2019-10-11 02:16:16.054 [main] INFO  co.zoom.qa.project.base.TestBase - Using executable from path chrome for chrome
+2019-10-11 02:16:16.054 [main] INFO  co.zoom.qa.project.base.TestBase - Found Match for C:\Users\RICHA\Selenium\chromedriver.exe browser

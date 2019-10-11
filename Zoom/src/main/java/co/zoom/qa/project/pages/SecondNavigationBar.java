@@ -132,7 +132,7 @@ public class SecondNavigationBar extends TestBase {
         return new PlansAndPricingPage();
     }
 
-    public ContactSales clickContactSales(){
+    public ContactSales clickContactSales() throws IOException {
         this.contactSales.click();
         return new ContactSales();
     }

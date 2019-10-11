@@ -1,14 +1,19 @@
 package co.zoom.qa.testcases;
 
 import co.zoom.qa.project.base.TestBase;
+import co.zoom.qa.project.listeners.ScreenShotListener;
 import co.zoom.qa.project.pages.ProfilePage;
 import co.zoom.qa.project.pages.SignInPage;
+import co.zoom.qa.project.reports.HtmlReport;
+import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.Status;
 import org.openqa.selenium.By;
 import org.testng.Assert;
-import org.testng.annotations.BeforeSuite;
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
 
 import java.io.IOException;
+
+@Listeners({ScreenShotListener.class})
 
 public class SignInPageTest extends TestBase {
 
@@ -18,9 +23,12 @@ public class SignInPageTest extends TestBase {
     public SignInPageTest() throws IOException {
         super();
     }
+    ExtentTest htmlReports = HtmlReport.getReportInstance().createTest("signInPageTest");
 
 
-    @BeforeSuite
+
+
+    @BeforeMethod
     public void setUp() throws IOException {
         initialization();
         signInPage = new SignInPage();
@@ -30,27 +38,41 @@ public class SignInPageTest extends TestBase {
         //driver.switchTo().window("https://zoom.us/signin");
     }
 
-    @Test
+    @Test(priority = 1)
     public void signInPageTitleTest(){
        String title = signInPage.validateSignInPageTitle();
         Assert.assertEquals(title,"Sign In - Zoom");
 
+        try {
+            Assert.fail();
+        }catch (AssertionError error) {
+
+            throw error;
+
+        }
     }
 
-    @Test
+
+    @Test(priority = 2)
     public void zoomLogoImgTest(){
         boolean b1 =signInPage.validateZoomLogo();
         Assert.assertTrue(b1);
     }
 
-    @Test
+    @Test(priority = 3)
     public void signInTest() throws IOException{
 
           profilePage = signInPage.signIn(prop.getProperty("Email"),prop.getProperty("Password"));
 
-
-
     }
+
+    @AfterMethod
+    public void flush() throws IOException {
+        HtmlReport.getReportInstance().flush();
+        driver.quit();
+    }
+
+
 
 
 }
