@@ -1,69 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a6ca8cf4-f674-4b88-afcd-e3b70de84c49" name="Default Changelist" comment="listeners added">
-      <change afterPath="$PROJECT_DIR$/framework.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/zoom/qa/project/data/SQLDataProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/zoom/qa/project/listeners/ExtentReportNG.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/zoom/qa/project/listeners/ScreenShotListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/zoom/qa/project/reports/HtmlReport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/zoom/qa/project/utils/FrameworkUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/testng.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/testng_sanity.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/co/zoom/qa/testcases/ContactSalesPageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/Zoom.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/ZoomTestData.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/co/zoom/qa/project/data/SQLDataProvider.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/co/zoom/qa/project/listeners/ExtentReportNG.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/co/zoom/qa/project/listeners/ScreenShotListener.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/co/zoom/qa/project/reports/HtmlReport.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/co/zoom/qa/project/utils/FrameworkUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/log4j2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/testng.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/testng_sanity.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/screenshot/2_201910283042952443.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/screenshot/2_201910283043544545.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/screenshot/2_201910283043545133.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/screenshot/2_201910283044846461.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/screenshot/2_201910283044846951.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/screenshot/2_201910283050702897.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/screenshot/2_201910283050846385.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/screenshot/2_201910283051112964.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/screenshot/2_201910283051735232.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/screenshot/2_201910283052227915.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/screenshot/2_201910283052456636.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/screenshot/2_201910283052736496.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/screenshot/2_201910284004801670.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/screenshot/2_201910284021433897.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/screenshot/2_201910284021434625.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/co/zoom/qa/testcases/ContactSalesPageTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Extent.html" afterDir="false" />
+    <list default="true" id="a6ca8cf4-f674-4b88-afcd-e3b70de84c49" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Zoom.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Zoom.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/zoom/qa/project/base/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/zoom/qa/project/base/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/zoom/qa/project/data/ExcelDataProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/zoom/qa/project/data/ExcelDataProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/zoom/qa/project/data/StaticDataProvider.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/zoom/qa/project/pages/ContactSales.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/zoom/qa/project/pages/ContactSales.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/zoom/qa/project/pages/SecondNavigationBar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/zoom/qa/project/pages/SecondNavigationBar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/zoom/qa/project/testdata/ZoomTestData.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/ZoomTestData.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/zoom/qa/project/utils/TestUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/zoom/qa/project/utils/TestUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/co/zoom/qa/testcases/RequestDemoPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/zoom/qa/testcases/RequestDemoPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/co/zoom/qa/testcases/SignInPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/zoom/qa/testcases/SignInPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/co/zoom/qa/testcases/SignUpPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/zoom/qa/testcases/SignUpPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/co/zoom/qa/project/base/TestBase$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/zoom/qa/project/base/TestBase$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/co/zoom/qa/project/base/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/zoom/qa/project/base/TestBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/co/zoom/qa/project/data/ExcelDataProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/zoom/qa/project/data/ExcelDataProvider.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/co/zoom/qa/project/data/StaticDataProvider.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/co/zoom/qa/project/pages/ContactSales.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/zoom/qa/project/pages/ContactSales.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/co/zoom/qa/project/pages/SecondNavigationBar.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/zoom/qa/project/pages/SecondNavigationBar.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/co/zoom/qa/project/utils/TestUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/zoom/qa/project/utils/TestUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/co/zoom/qa/testcases/ProfilePageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/co/zoom/qa/testcases/ProfilePageTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/co/zoom/qa/testcases/RequestDemoPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/co/zoom/qa/testcases/RequestDemoPageTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/co/zoom/qa/testcases/SignInPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/co/zoom/qa/testcases/SignInPageTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/co/zoom/qa/testcases/SignUpPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/co/zoom/qa/testcases/SignUpPageTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/co/zoom/qa/testcases/TopNavigationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/co/zoom/qa/testcases/TopNavigationTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/zoom/qa/project/listeners/ExtentReportNG.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/zoom/qa/project/listeners/ExtentReportNG.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/Zoom.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ZoomTestData.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/zoom/qa/project/base/TestBase$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/zoom/qa/project/base/TestBase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/zoom/qa/project/data/ExcelDataProvider.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/zoom/qa/project/data/SQLDataProvider.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/zoom/qa/project/listeners/ExtentReportNG.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/zoom/qa/project/listeners/ScreenShotListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/zoom/qa/project/pages/AppMarketplacePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/zoom/qa/project/pages/ContactSales.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/zoom/qa/project/pages/DownloadZoomClientPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/zoom/qa/project/pages/EducationPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/zoom/qa/project/pages/FaqPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/zoom/qa/project/pages/FinancePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/zoom/qa/project/pages/GovernmentPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/zoom/qa/project/pages/HealthcarePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/zoom/qa/project/pages/HomePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/zoom/qa/project/pages/HostAMeetingPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/zoom/qa/project/pages/JoinAMeetingPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/zoom/qa/project/pages/LiveTrainingPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/zoom/qa/project/pages/MeetingsAndChatPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/zoom/qa/project/pages/Num1888Page.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/zoom/qa/project/pages/PhoneSystemPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/zoom/qa/project/pages/PlansAndPricingPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/zoom/qa/project/pages/ProfilePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/zoom/qa/project/pages/ReadOurBlogPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/zoom/qa/project/pages/RequestDemoPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/zoom/qa/project/pages/ResourcesPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/zoom/qa/project/pages/RoomsAndWorkspacesPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/zoom/qa/project/pages/SecondNavigationBar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/zoom/qa/project/pages/SentConfirmationEmailPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/zoom/qa/project/pages/SignInPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/zoom/qa/project/pages/SignUpPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/zoom/qa/project/pages/SupportPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/zoom/qa/project/pages/TopNavigation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/zoom/qa/project/pages/VideoTutorialsPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/zoom/qa/project/pages/VideoWebinarsPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/zoom/qa/project/pages/WebinarsAndEventsPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/zoom/qa/project/pages/ZoomBlogPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/zoom/qa/project/reports/HtmlReport.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/zoom/qa/project/utils/FrameworkUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/zoom/qa/project/utils/TestUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/zoom/qa/project/utils/WebEventListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/log4j2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/testng.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/testng_sanity.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/screenshot/2_201910283042952443.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/screenshot/2_201910283043544545.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/screenshot/2_201910283043545133.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/screenshot/2_201910283044846461.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/screenshot/2_201910283044846951.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/screenshot/2_201910283050702897.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/screenshot/2_201910283050846385.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/screenshot/2_201910283051112964.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/screenshot/2_201910283051735232.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/screenshot/2_201910283052227915.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/screenshot/2_201910283052456636.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/screenshot/2_201910283052736496.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/screenshot/2_201910284004801670.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/screenshot/2_201910284021433897.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/screenshot/2_201910284021434625.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/Zoom.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/co/zoom/qa/testcases/ContactSalesPageTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/co/zoom/qa/testcases/ProfilePageTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/co/zoom/qa/testcases/RequestDemoPageTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/co/zoom/qa/testcases/SecondNavigationBarTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/co/zoom/qa/testcases/SignInPageTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/co/zoom/qa/testcases/SignUpPageTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/co/zoom/qa/testcases/TopNavigationTest.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -79,34 +91,27 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/co/zoom/qa/testcases/RequestDemoPageTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/co/zoom/qa/project/base/TestBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="410">
-              <caret line="46" selection-start-line="46" selection-end-line="46" />
+            <state relative-caret-position="104">
+              <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1296#1297#0" expanded="true" />
+                <element signature="e#1325#1326#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/co/zoom/qa/project/utils/WebEventListener.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/co/zoom/qa/testcases/ProfilePageTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="64" column="9" selection-start-line="64" selection-start-column="9" selection-end-line="64" selection-end-column="9" />
+            <state relative-caret-position="476">
+              <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/testng.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -114,77 +119,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/co/zoom/qa/testcases/ContactSalesPageTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="750">
-              <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/testng_sanity.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="8" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/co/zoom/qa/project/listeners/ExtentReportNG.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/co/zoom/qa/project/listeners/ScreenShotListener.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="759">
-              <caret line="62" selection-start-line="62" selection-end-line="62" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/co/zoom/qa/project/utils/TestUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="116" selection-start-line="116" selection-end-line="116" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/co/zoom/qa/testcases/SignInPageTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="291">
-              <caret line="51" column="9" lean-forward="true" selection-start-line="51" selection-start-column="9" selection-end-line="51" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="119">
+              <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -239,13 +175,24 @@
         <option value="$PROJECT_DIR$/src/test/java/co/zoom/qa/testcases/SignUpPageTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/co/zoom/qa/testcases/RequestDemoPageTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/co/zoom/qa/project/utils/TestUtil.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/co/zoom/qa/project/reports/ExtentReportListener.java" />
-        <option value="$PROJECT_DIR$/src/main/java/co/zoom/qa/project/listeners/ExtentReportNG.java" />
         <option value="$PROJECT_DIR$/src/main/resources/testng.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/testng_sanity.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/co/zoom/qa/project/listeners/ExtentReportNG.java" />
       </list>
     </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Zoom" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="528" />
@@ -257,100 +204,95 @@
     <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
+      <flattenPackages PackagesPane="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
             <path>
-              <item name="Zoom" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Zoom" type="462c0819:PsiDirectoryNode" />
+              <item name="Zoom" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\RICHA\Documents\GitHub\Selenium\Zoom" type="442cc68d:ScopeViewTreeModel$RootNode" />
             </path>
             <path>
-              <item name="Zoom" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Zoom" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Zoom" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\RICHA\Documents\GitHub\Selenium\Zoom" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
-              <item name="Zoom" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Zoom" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="Zoom" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\RICHA\Documents\GitHub\Selenium\Zoom" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
-              <item name="Zoom" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Zoom" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Zoom" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\RICHA\Documents\GitHub\Selenium\Zoom" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
-              <item name="Zoom" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Zoom" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="Zoom" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\RICHA\Documents\GitHub\Selenium\Zoom" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="co" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
-              <item name="Zoom" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Zoom" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
+              <item name="Zoom" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\RICHA\Documents\GitHub\Selenium\Zoom" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="co" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="zoom" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
-              <item name="Zoom" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Zoom" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="Zoom" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\RICHA\Documents\GitHub\Selenium\Zoom" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="co" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="zoom" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="qa" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
-              <item name="Zoom" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Zoom" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="Zoom" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\RICHA\Documents\GitHub\Selenium\Zoom" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="co" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="zoom" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="qa" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="testcases" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
-              <item name="Zoom" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Zoom" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Zoom" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Zoom" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="testcases" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Zoom" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Zoom" type="462c0819:PsiDirectoryNode" />
-              <item name="test-output" type="462c0819:PsiDirectoryNode" />
+              <item name="Zoom" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\RICHA\Documents\GitHub\Selenium\Zoom" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="test-output" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -374,8 +316,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/RICHA/Documents/GitHub/Selenium/Zoom/src/main/resources/testng_sanity.xml">
-    <configuration name="C:/Users/RICHA/Documents/GitHub/Selenium/Zoom/src/main/resources/testng_sanity.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.SignUpPageTest">
+    <configuration name="C:/Users/RICHA/Documents/GitHub/Selenium/Zoom/src/main/resources/testng_sanity.xml" type="TestNG" nameIsGenerated="true">
       <module name="Zoom" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/src/main/resources/testng_sanity.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
@@ -457,13 +399,15 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.C:/Users/RICHA/Documents/GitHub/Selenium/Zoom/src/main/resources/testng_sanity.xml" />
         <item itemvalue="TestNG.SignUpPageTest" />
         <item itemvalue="TestNG.SignInPageTest.signInPageTitleTest" />
         <item itemvalue="TestNG.SignInPageTest" />
         <item itemvalue="TestNG.SignInPageTest.zoomLogoImgTest" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",SHOW_FIELDS,VISIBILITY_SORTER" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -483,7 +427,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570527504839</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="listeners added">
+      <created>1570777011446</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1570777011446</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -518,17 +469,26 @@
       <configuration name="C:/Users/RICHA/Documents/GitHub/Selenium/Zoom/src/main/resources/testng_sanity.xml" configurationId="TestNG" />
     </history-entry>
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27345416" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" x="793" y="70" width="333" height="900" id="Project" order="0" sideWeight="0.49666667" visible="true" weight="0.18070363" />
+      <window_info id="Structure" order="1" sideWeight="0.50333333" side_tool="true" weight="0.17750533" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Favorites" order="6" sideWeight="0.5011111" side_tool="true" weight="0.17430703" />
       <window_info anchor="bottom" id="Messages" order="0" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
@@ -544,23 +504,23 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.32995737" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27345416" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" x="793" y="70" width="333" height="900" id="Project" order="0" sideWeight="0.49666667" visible="true" weight="0.17750533" />
+      <window_info id="Structure" order="1" sideWeight="0.50333333" side_tool="true" weight="0.17750533" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Favorites" order="6" sideWeight="0.5011111" side_tool="true" weight="0.17430703" />
       <window_info anchor="bottom" id="Messages" order="0" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49946696" visible="true" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49946696" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -572,49 +532,62 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.32995737" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Zoom practice" />
     <MESSAGE value="listeners added" />
     <option name="LAST_COMMIT_MESSAGE" value="listeners added" />
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/co/zoom/qa/project/pages/JoinAMeetingPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/co/zoom/qa/project/pages/HostAMeetingPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../b14framework/src/test/java/co/pragra/testingframework/pages/RequestDemoPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="682">
-          <caret line="83" column="5" lean-forward="true" selection-start-line="55" selection-start-column="4" selection-end-line="83" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/co/zoom/qa/project/pages/SentConfirmationEmailPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/co/zoom/qa/project/pages/SignUpPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -655,16 +628,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="376">
           <caret line="27" column="40" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/co/zoom/qa/testcases/ProfilePageTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -720,13 +683,7 @@
       </provider>
       <provider editor-type-id="csv-text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/co/zoom/qa/project/data/StaticDataProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/co/zoom/qa/project/data/StaticDataProvider.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.11/testng-6.11.jar!/org/testng/annotations/Test.class">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -781,36 +738,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/co/zoom/qa/project/ExtentReportListener/LogStatus.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/co/zoom/qa/project/data/CellType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/co/zoom/qa/project/ExtentReportListener/ExtentReportListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="38" column="50" selection-start-line="38" selection-start-column="50" selection-end-line="38" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/co/zoom/qa/project/pages/ContactSales.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/co/zoom/qa/project/ExtentReportListener/LogStatus.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/co/zoom/qa/project/data/CellType.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/co/zoom/qa/project/ExtentReportListener/ExtentReportListener.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/co/zoom/qa/project/data/ExcelDataProvider.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -831,45 +761,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/testng.xml.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/testng.xml.fxml" />
     <entry file="file://$PROJECT_DIR$/Zoom.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/co/zoom/qa/project/base/TestBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="66" column="22" selection-start-line="66" selection-start-column="22" selection-end-line="66" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1296#1297#0" expanded="true" />
-            <element signature="e#1324#1325#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/screenshot/2_201910283043544545.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/co/zoom/qa/project/utils/FrameworkUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/screenshot/2_201910283042952443.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/target/screenshot/2_201910283043544545.png" />
+    <entry file="file://$PROJECT_DIR$/target/screenshot/2_201910283042952443.png" />
     <entry file="file://$PROJECT_DIR$/src/main/java/co/zoom/qa/project/pages/SignInPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -893,9 +790,6 @@
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/framework.log">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/log4j2.xml">
       <provider selected="true" editor-type-id="text-editor" />
@@ -930,10 +824,52 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/co/zoom/qa/project/reports/ExtentReportListener.java" />
+    <entry file="file://$PROJECT_DIR$/test-output/testng-results.xml" />
+    <entry file="file://$PROJECT_DIR$/.project" />
+    <entry file="file://$PROJECT_DIR$/testng-results.xml" />
+    <entry file="file://$PROJECT_DIR$/Zoom.userlibraries" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/testng_sanity.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/co/zoom/qa/project/listeners/ExtentReportNG.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="818">
+          <caret line="76" selection-start-line="76" selection-end-line="76" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/co/zoom/qa/project/listeners/ScreenShotListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="759">
-          <caret line="62" selection-start-line="62" selection-end-line="62" />
+        <state relative-caret-position="374">
+          <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/co/zoom/qa/project/utils/FrameworkUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -952,59 +888,57 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="116" selection-start-line="116" selection-end-line="116" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/co/zoom/qa/project/reports/ExtentReportListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/co/zoom/qa/project/listeners/ExtentReportNG.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="818">
+          <caret line="143" column="10" selection-start-line="143" selection-start-column="10" selection-end-line="143" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/co/zoom/qa/testcases/SignInPageTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="51" column="9" lean-forward="true" selection-start-line="51" selection-start-column="9" selection-end-line="51" selection-end-column="9" />
+        <state relative-caret-position="818">
+          <caret line="51" column="9" selection-start-line="51" selection-start-column="9" selection-end-line="51" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/testng_sanity.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/co/zoom/qa/project/pages/ContactSales.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="8" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+        <state relative-caret-position="629">
+          <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/testng.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/co/zoom/qa/project/base/TestBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="104">
+          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1296#1297#0" expanded="true" />
+            <element signature="e#1325#1326#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/co/zoom/qa/testcases/ProfilePageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/co/zoom/qa/testcases/ContactSalesPageTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
-          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="119">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -1071,6 +1005,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Maven: com.aventstack:extentreports:4.0.9</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
