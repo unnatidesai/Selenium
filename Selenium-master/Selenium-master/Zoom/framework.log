@@ -1,0 +1,2 @@
+2019-10-12 10:24:36.043 [main] INFO  co.zoom.qa.project.base.TestBase - Using executable from path chrome for chrome
+2019-10-12 10:24:36.060 [main] INFO  co.zoom.qa.project.base.TestBase - Found Match for C:\Users\RICHA\Selenium\chromedriver.exe browser
